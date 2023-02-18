@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 335px;
+    padding: 22px;
+    border-radius: 25px;
+    z-index: 1;
+
+    background: hsl(213, 19%, 18%);
+}
+
+
+.star {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    background: hsl(213, 20%, 27%);
+}
+
+.heder-title {
+    margin: 20px 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+
+    color: hsl(0, 0%, 100%);
+}
+
+.heder_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+
+
+    color: hsl(217, 12%, 63%);
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 45px;
+    height: 45px;
+    padding: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+    text-align: center;
+    font-size: 15px;
+
+
+    background: hsl(217, 12%, 63%);
+}
+
+.item:hover {
+    color: white;
+}
+
+.item:hover {
+    background: hsl(25, 97%, 53%);
+}
+
+.active_item {
+    background: rgb(109, 109, 109);
+}
+
+.submit {
+    padding: 10px 120px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+
+    background: hsl(25, 97%, 53%);
+}
+
+.submit:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+
+/******************** Thank_you *******************/
+
+
+.Thank_container {
+    width: 335px;
+    padding: 22px;
+    border-radius: 25px;
+
+    position: absolute;
+
+    background: hsl(213, 19%, 18%);
+}
+
+.Thank_you {
+    display: block;
+    text-align: center;
+}
+
+.Thank_logo {
+    margin: 14px auto 1rem;
+}
+
+.Rate {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 5px 0;
+    margin: 0 50px;
+
+    border-radius: 0.938rem;
+    font-size: 0.938rem;
+
+    background: hsl(217, 21%, 22%);
+    color: hsl(25, 97%, 53%);
+}
+
+.title {
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: hsl(0, 0%, 100%);
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.6;
+    ;
+    color: hsl(217, 12%, 63%);
+}
